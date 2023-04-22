@@ -21,12 +21,52 @@ body{
 }
 
 .card-1{
-    width: 400px;
     background-color: #1b1938;
     color: 	#ffffff;
+    padding: 20px;
     width: 500px;
     height: 400px;
     
+}
+
+
+.card-header span{
+    color: 	#aa5cdb;
+}
+
+.card-header {
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.card-info{
+    font-family: 'Lexend Deca', sans-serif;
+    color: 	#ffffff;
+    line-height: 1.7;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+
+
+.flex-group{
+    display: flex;
+    justify-content: space-around;
+}
+.numbers{
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    margin: 0 5px;
+}
+
+.category{
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+
 }
 
 img{
@@ -44,7 +84,7 @@ img{
     
 }
 .img-container::before{
-    background-color: rgba(170, 92, 219, 0.6);
+    background-color: rgba(170, 92, 219, 0.3);
     position: absolute;
     content: "";
     height: 100%;
