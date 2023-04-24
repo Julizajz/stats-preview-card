@@ -117,7 +117,7 @@ img{
 
     .card-1{
       width: 350px;
-      height: 430px;
+      height: 470px;
       padding: 0;
       text-align: center;
       border-top-left-radius: 0;
@@ -134,6 +134,10 @@ img{
     .card-info{
         margin: 10px 10px 5px;
         padding: 5px 10px;
+    }
+
+    .category{
+        margin-bottom: 20px;
     }
 
     .flex-group{
