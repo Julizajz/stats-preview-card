@@ -117,7 +117,7 @@ img{
 
     .card-1{
       width: 350px;
-      height: 400px;
+      height: 430px;
       padding: 0;
       text-align: center;
       border-top-left-radius: 0;
@@ -127,7 +127,13 @@ img{
     .card-header{
         font-size: 30px;
         margin: 20px 10px 5px;
+        padding-bottom: 5px;
         
+    }
+
+    .card-info{
+        margin: 10px 10px 5px;
+        padding: 5px 10px;
     }
 
     .flex-group{
